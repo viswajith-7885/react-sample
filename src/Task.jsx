@@ -12,7 +12,7 @@ const Task = () => {
 
         change(x)
         changecount(x.split(" ").join("").length)
-        word(x.trim().split(" ").length)
+        word(x.trim().split(/\s+/).length)
 
     }
 
